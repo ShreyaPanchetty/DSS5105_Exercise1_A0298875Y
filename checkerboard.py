@@ -20,7 +20,8 @@ checkerboard = generate_checkerboard()
 
 ### Plot checkerboard
 plt.figure(figsize=(6,6))
-plt.imshow(checkerboard, cmap="plasma", interpolation="nearest")
+plt.imshow(checkerboard, cmap="viridis", interpolation="nearest") 
+# accepted the incoming change from "plasma" to "viridis" for the branch "cmapchange"
 plt.axis("off")
 plt.title("A Checkerboard Pattern")
 plt.show()
